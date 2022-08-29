@@ -1,0 +1,293 @@
+{
+    "icon":"http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/wp-content\/img\/icono_ubicacion_3.png",
+    "options": {
+        "apikey": "AIzaSyDtjcyLTYTvOLieud_gK2WKsI5B4cPzbsc",
+        "draggable": true,
+        "mapTypeControl": false,
+        "mapTypeId": "ROADMAP",
+        "panControl": true,
+        "scaleControl": false,
+        "zoom": 16,
+        "zoomControl": true
+    },
+    "places": [
+        {
+            "address": "Templo de Claypole: Santiago Liniers 465, B1849DIJ, Claypole, Provincia de Buenos Aires",
+            "latitude": "-34.805573075410006",
+            "longitude": "-58.33990529998041",
+            "marker": ""
+        }
+    ],
+    "style": [
+        {
+            "elementType": "labels.text.fill",
+            "featureType": "all",
+            "stylers": [
+                {
+                    "saturation": 36
+                },
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 40
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text.stroke",
+            "featureType": "all",
+            "stylers": [
+                {
+                    "visibility": "on"
+                },
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 16
+                }
+            ]
+        },
+        {
+            "elementType": "labels.icon",
+            "featureType": "all",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "elementType": "geometry.fill",
+            "featureType": "administrative",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 20
+                }
+            ]
+        },
+        {
+            "elementType": "geometry.stroke",
+            "featureType": "administrative",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 17
+                },
+                {
+                    "weight": 1.2
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "landscape",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 20
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "poi",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 21
+                }
+            ]
+        },
+        {
+            "elementType": "geometry.fill",
+            "featureType": "road.highway",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 17
+                }
+            ]
+        },
+        {
+            "elementType": "geometry.stroke",
+            "featureType": "road.highway",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 29
+                },
+                {
+                    "weight": 0.2
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "road.arterial",
+            "stylers": [
+                {
+                    "color": "#000084"
+                },
+                {
+                    "lightness": 18
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "road.local",
+            "stylers": [
+                {
+                    "color": "#00H084"
+                },
+                {
+                    "lightness": 10
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "transit",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 19
+                }
+            ]
+        },
+        {
+            "elementType": "geometry",
+            "featureType": "water",
+            "stylers": [
+                {
+                    "color": "#000000"
+                },
+                {
+                    "lightness": 17
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@id":"http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#website",
+            "@type": "WebSite",
+            "description": "Salón de Eventos",
+            "inLanguage": "es-ES",
+            "name": "El Templo de Claypole",
+            "publisher": {
+                "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#organization"
+            },
+            "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/"
+        },
+        {
+            "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#organization",
+            "@type": "Organization",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Reservations",
+                "telephone": "+541156583164"
+            },
+            "image": {
+                "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#organizationLogo"
+            },
+            "logo": {
+                "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#organizationLogo",
+                "@type": "ImageObject",
+                "height": 440,
+                "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/wp-content\/img\/logo_1.png",
+                "width": 440
+            },
+            "name": "Rufino",
+            "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/"
+        },
+        {
+            "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/#breadcrumblist",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#listItem",
+                    "@type": "ListItem",
+                    "item": {
+                        "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/",
+                        "@type": "WebPage",
+                        "description": "Salón de Eventos",
+                        "name": "Inicio",
+                        "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/"
+                    },
+                    "nextItem": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/#listItem",
+                    "position": 1
+                },
+                {
+                    "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/#listItem",
+                    "@type": "ListItem",
+                    "item": {
+                        "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/",
+                        "@type": "WebPage",
+                        "description": "Salon de eventos",
+                        "name": "El Templo de Claypole",
+                        "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/"
+                    },
+                    "position": 2,
+                    "previousItem": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#listItem"
+                }
+            ]
+        },
+        {
+            "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/#webpage",
+            "@type": "WebPage",
+            "breadcrumb": {
+                "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/#breadcrumblist"
+            },
+            "dateModified": "2021-09-13T13:57:03-03:00",
+            "datePublished": "2017-01-09T09:52:02-03:00",
+            "description": "Salon de eventos",
+            "inLanguage": "es-ES",
+            "isPartOf": {
+                "@id": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/#website"
+            },
+            "name": "El Templo de Claypole | El Templo de Claypole",
+            "url": "http:\/\/10.10.10.100\/clone-2\/rufinoeventos.com.ar\/rufino-palermo/"
+        }
+    ]
+}
+
